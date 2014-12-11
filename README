@@ -1,13 +1,38 @@
-# Report of My Sharing DuckDuckGo Activity
+# Rebuild ep70 かんそう
 
-## How did you get your friend to switch to DuckDuckGo?
+## Rebuild: 70: Bureaucratic Refactoring (Hajime Morrita)
 
-I discovered an immutable law that rules the universe. DuckDuckGo Law. In brief, those who love birds are inclined to chose DuckDuckGo. Testing is absolutely easy. Just ask one whether he is fond of birds. Any birds, a blue jay, a cardinal or an oriole. When you get an affirmative answer, he is a duckducker or a potential duckducker. It seems quite normal, considering there is no dove-friendly search engine other than DuckDuckGo.
+*   たつひこ みやがわ、はじめ もりた
+*   しわす むいか、2014ねん、59ふん
 
-It is also important to draw up a list that reasons. [Why I love DuckDuckGo?](https://github.com/qiananmen/qiananmen-codex/tree/1f87438)
+かみかい。しかいの たつひこ みやがわ と あぷりけーしょん かいはつの さいぜんせんで かつやくする げすとの はじめ もりたが、りふぁくたりんぐ と りあくてぃぶ ぷろぐらみんぐに ついて かたりあった。
 
-## What did they most like about DuckDuckGo?
+たしかに しゅつえんしゃの やりとり かならずしも せつめいてきで ない。かれら そふとうぇあ こうがくの せんもんかでも へいこうしょり ぷろぐらみんぐの たんきゅうしゃでも ない。しかし たいへん こうかな ぎじゅつしょに しるされた ひゃくまんの ことばよりも せっとくりょくが あった。けいけんに うらうちされた かれらの ちけんに こころを うたれた。
 
-*   no personalization
-*   no tracking
-*   auto-load results
+かいわに ついていくために しゅうちゅうを ようする。ぼうねんかいを なくなく けっせきしてでも じかんを つくれ。いま しちょうするか しないかで、 すうねんごに ぷろぐらま せいめいを わけると いって けっして おおげさで ない。
+
+## ききがき
+
+*   37:00
+    
+    森田: すごい昔から思っていることとして、なんかコードが詳しいせいで偉くなってしまう人っていうのがいるんですよね。それで、Googleにはたぶんそんなにいないと思うんですけど、というのも、みんな飽きっぽいので。
+    
+    宮川: （笑）
+    
+    森田: ただやっぱり同じコードをずっとメンテナンスしているような会社だと、そのコードを書いた、そのコードがずっと使われている、そのコードはその人にレビューを頼まなければいけないというためだけに既得利権みたいなものがうまれて、必要のない権力をつくりだしてしまうという面もありますよね。なので、もちろんコード本来の意図を捕らえて、それを崩さないようにするために正しい人にレビューをしてもらうのがある一方で、壊れてもいいから、新しい人が学習としてそのコードベースを引き取って、ちょっと壊しつつよくしていくっていうのはあると思うんですよね。
+
+*   39:14
+    
+    宮川: さっきリファクタリングのためのリファクタリングって言いましたけど、でもリファクタリングをすると、なんとなく自分で書いてどういう意図でリファクタリングしたかというのが自分の中では分かるので、そういうのを繰り返していくと、なんとなくコードの中のこの辺は自分が持ってういるなという感覚が増えていくっていうのはありますよね。
+    
+    森田: そうなんですよ。やっぱり書くことで理解するとか、書くことで自分のものにするっていうのはあるんで、そうやってメンテナーは変わっていくっていうのはあると思うし、そうやって変わっていくプロジェクトの方が健全だし長生きすると思いますね。
+    
+    宮川: うーん。なるほど。
+
+*   51:26
+    
+    森田: これは始まったばかりだったんですね。それでAndroidをやるついでに、ちょっと新しいライブラリに詳しくなって楽しい気分になりたいなと思って、見ていたら、けっこう無いAPIがあるので、ちょっと生やしたいなとかいって、パッチ送ったりしてます。これはすごくちっちゃいライブラリで、どうってことないんですよね。ただ、どうってことないが故に参加する余地があって楽しい。結局なんかそのRxJava本体はいいんですけど、たぶんReactive Cocoaの中はそうだと思うんですけど、RxていうもののコンセプトをRxじゃない世界に適用していくっていうのは割と機械的な作業なんですよ。機械的っていうと言い過ぎなんですけど、リスナーというのをオブザーバブルという、別のそのRxのコンセプトに置き換えるラッパーを書いていくという仕事なので、割と素人でもできる。楽しい、みたいな。オープンソースできるじゃん、とか言って。
+    
+    宮川: （笑）
+    
+    森田: そうやって自己満足してるっていうのが最近ですね。たぶんアプリ書いた方がいいんでしょうけどね。

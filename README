@@ -1,38 +1,210 @@
-# Rebuild ep70 かんそう
+# 2014ねんで よんだ ほん
 
-## Rebuild: 70: Bureaucratic Refactoring (Hajime Morrita)
+さっから と そうていからに ありがとう。ぜつめつきぐしゅらの へんしゅうしゃらにも。
 
-*   たつひこ みやがわ、はじめ もりた
-*   しわす むいか、2014ねん、59ふん
+---
 
-かみかい。しかいの たつひこ みやがわ と あぷりけーしょん かいはつの さいぜんせんで かつやくする げすとの はじめ もりたが、りふぁくたりんぐ と りあくてぃぶ ぷろぐらみんぐに ついて かたりあった。
+**もし へみんぐうぇいが JavaScriptを かけたら**
 
-たしかに しゅつえんしゃの やりとり かならずしも せつめいてきで ない。かれら そふとうぇあ こうがくの せんもんかでも へいこうしょり ぷろぐらみんぐの たんきゅうしゃでも ない。しかし たいへん こうかな ぎじゅつしょに しるされた ひゃくまんの ことばよりも せっとくりょくが あった。けいけんに うらうちされた かれらの ちけんに こころを うたれた。
+Angus Croll
 
-かいわに ついていくために しゅうちゅうを ようする。ぼうねんかいを なくなく けっせきしてでも じかんを つくれ。いま しちょうするか しないかで、 すうねんごに ぷろぐらま せいめいを わけると いって けっして おおげさで ない。
+> しょうがいを つうじて、あたかも はじめて まみえたかの ように JavaScriptを めに いれてきた。
 
-## ききがき
+21せいきに なって JavaScriptの そんざいかん ますます ますばかり。ふぇいすぶっく、いーべい、まいくそろふと や ついったー といった なだたる だいきぎょうが JavaScriptに くるってる。'この' つらみが くらいあんとを えっきょうし さーばを きゅうしゅう。そして ことし このほんで JavaScript ぶんがくに なる。
 
-*   37:00
-    
-    森田: すごい昔から思っていることとして、なんかコードが詳しいせいで偉くなってしまう人っていうのがいるんですよね。それで、Googleにはたぶんそんなにいないと思うんですけど、というのも、みんな飽きっぽいので。
-    
-    宮川: （笑）
-    
-    森田: ただやっぱり同じコードをずっとメンテナンスしているような会社だと、そのコードを書いた、そのコードがずっと使われている、そのコードはその人にレビューを頼まなければいけないというためだけに既得利権みたいなものがうまれて、必要のない権力をつくりだしてしまうという面もありますよね。なので、もちろんコード本来の意図を捕らえて、それを崩さないようにするために正しい人にレビューをしてもらうのがある一方で、壊れてもいいから、新しい人が学習としてそのコードベースを引き取って、ちょっと壊しつつよくしていくっていうのはあると思うんですよね。
+あっとうてき なんばーわん。こうこつとして ひとよ よみあかした。あたし ぎょうこした こころを もった ぷろぐらまだった。せいちょう と せいかに ばかり とらわれてた。じかんの ながれに あせりを かんじてた。でも それを てにして、へみんぐうぇい、しぇーくすぴあ と そのほか ごうけい 25にんの ありがたい ぷろぐらまらが きづかさせてくれたことによって、あたしの なかで ふたたび すぱーくが かいふくした。いま それを よまずして としを こせないと ふれまわってる。ほんこうも その いっかん。
 
-*   39:14
-    
-    宮川: さっきリファクタリングのためのリファクタリングって言いましたけど、でもリファクタリングをすると、なんとなく自分で書いてどういう意図でリファクタリングしたかというのが自分の中では分かるので、そういうのを繰り返していくと、なんとなくコードの中のこの辺は自分が持ってういるなという感覚が増えていくっていうのはありますよね。
-    
-    森田: そうなんですよ。やっぱり書くことで理解するとか、書くことで自分のものにするっていうのはあるんで、そうやってメンテナーは変わっていくっていうのはあると思うし、そうやって変わっていくプロジェクトの方が健全だし長生きすると思いますね。
-    
-    宮川: うーん。なるほど。
+しかし ふきょうが なかなか はかどらない。むずかしい もんだいに ちょくめんしてる。それ へいぜい RFCを さんしょうするときと ちがう えいごのうが ひつようということ。にっぽんの ぷろぐらまに ほんのすこし しきいが たかい。にっぽんごに ほんやくされると いいな。B&Bに ひらづみされると いいな。やっぱり むりだろう。あるふぁべっとから かんじに へんかんさせたら みりょくの だいぶぶんが つたわらない。いみないようだけで なく すがたかたちも そこなう。それ うつくしくも ある。すごい H ほんの Miran Lipovačaが さしえを たんとう。おすろべにあ。
 
-*   51:26
-    
-    森田: これは始まったばかりだったんですね。それでAndroidをやるついでに、ちょっと新しいライブラリに詳しくなって楽しい気分になりたいなと思って、見ていたら、けっこう無いAPIがあるので、ちょっと生やしたいなとかいって、パッチ送ったりしてます。これはすごくちっちゃいライブラリで、どうってことないんですよね。ただ、どうってことないが故に参加する余地があって楽しい。結局なんかそのRxJava本体はいいんですけど、たぶんReactive Cocoaの中はそうだと思うんですけど、RxていうもののコンセプトをRxじゃない世界に適用していくっていうのは割と機械的な作業なんですよ。機械的っていうと言い過ぎなんですけど、リスナーというのをオブザーバブルという、別のそのRxのコンセプトに置き換えるラッパーを書いていくという仕事なので、割と素人でもできる。楽しい、みたいな。オープンソースできるじゃん、とか言って。
-    
-    宮川: （笑）
-    
-    森田: そうやって自己満足してるっていうのが最近ですね。たぶんアプリ書いた方がいいんでしょうけどね。
+あーねすと へみんぐうぇい：
+
+    function fibonacci(size) {
+
+      var first = 0, second = 1, next, count = 2, result = [first, second];
+
+      if(size < 2)
+        return "the request was made but it was not good"
+
+      while(count++ < size) {
+        next = first + second;
+        first = second;
+        second = next;
+        result.push(next);
+      }
+
+      return result;
+    }
+
+うぃりあむ しぇーくすぴあ：
+
+    function theSeriesOfFIBONACCI(theSize) {
+
+      //a CALCKULATION in two acts.
+      //employ'ng the humourous logick of JAVA-SCRIPTE
+
+      //Dramatis Personae
+      var theResult; //an ARRAY to contain THE NUMBERS
+      var theCounter; //a NUMBER, serv'nt to the FOR LOOP
+
+      //ACT I: in which a ZERO is added for INITIATION
+
+      //[ENTER: theResult]
+
+      //Upon the noble list bestow a zero
+      var theResult = [0];
+
+      //ACT II: a LOOP in which the final TWO NUMBERS are QUEREED and SUMM'D
+
+      //[ENTER: theCounter]
+
+      //Commence at one and venture o'er the numbers
+      for (theCounter = 1; theCounter < theSize; theCounter++) {
+        //By divination set adjoining members
+        theResult[theCounter] = (theResult[theCounter-1]||1) + theResult[Math.max(0, theCounter-2)];
+      }
+
+      //'Tis done, and here's the answer.
+      return theResult;
+
+      //[Exeunt]
+    }
+
+**AGE OF CONTEXT: Mobile, Sensors, Data and the Future of Privacy**
+
+Robert Scoble と Shel Israel
+
+> However, we'd be negligent if we didn't point out that price we pay for may of these benefits is our personal privacy.
+
+つぎに くる じだいを かんがえるために だいじな いっさつ。ほんしょに よれば こんてくすとが かぎに なるという。もばいる、そーしゃる めでぃあ、でーた、せんさー と ろけーしょんが ばんぶつを そせいする ごぎょうとなり、 そして すべての びじねす もっと ぱーそなるに しんかする。
+
+**TAKE CONTROL OF YOUR ONLINE PRIVACY**
+
+Joe Kissell
+
+Facebookを りようしてる ときに れんらくさきを しらない しりあいが さじぇすとされて いぶかしく おもったこと ないだろうか。いまや SNSに かぎらず ありとあらゆる きぎょう や せいふ きかんが こじん じょうほうを あつめ、りかつようしてる。それが いちど いんたーねっとに りゅうしゅつしたら、あとから とりけすこと なかなか できない。たにんに しられたくない じょうほうを こんとろーるする すべを まなぶ ひつようが ある。
+
+**Linked Data: Structured data on the Web**
+
+David Wood、Marsha Zaidman、Luke Ruth と Michael Hausenblas
+
+いんたーねっと げんりしゅぎに さんかしよう。
+
+**Learning SPARQL: Querying and Updating with SPARQL 1.1**
+
+Bob DuCharme
+
+いんたーねっと げんりしゅぎによって どきゅめんとの うえぶから でーたの うえぶに いこうした。すぱーくるって こうぞうかされた でーたが しはいする せかいにおける ほくとしんけん。
+
+**Data Structures & Algorithms with JavaScript**
+
+Michael McMillan
+
+> See *The Art of Computer Programming: Volume 3, Sorting and Searching* by Donald Knuth (Addison-Wesley, 399-401) for more information on probability distributions in data sets.
+
+ありそうで なかった、JavaScriptで あるごりずむ と でーた こうぞうを まなぶ ほん。C や Javaに あれるぎーを かかえる ひとも これなら とりくめる。
+
+**Node.js the Right Way: Practical, Server-Side JavaScript That Scales**
+
+Jim R. Wilson (jimbojw, hexlib)
+
+> Node's philosophy is to give you low-level access to the event loop and to system resources. Or, in the words of core committer Felix Geisendörfer, in Node "everything runs in parallel except your code."
+
+あまたある Node.jsの にゅうもんしょで もっとも とがってる。しょっぱな Windows ゆーざーに たいしょうがいと せんこく。Hello World! なし。--harmony れんぱつ。ØMQ だいすき。てっていてきに ぷらぐまてぃっく。
+
+**Core HTML5 Canvas: Graphics, Animation, and Game Development**
+
+David Geary
+
+**Core HTML5 2D Game Programming**
+
+David Geary
+
+ようやく とうじょうした Canvas と WebGLについての まともな ほん。
+
+**Automate with Grunt: The Build Tool for JavaScript**
+
+Brian P. Hogan
+
+> It's really important that we document the tasks that we create so others who follow our work will know what those tasks do.
+
+うえぶ かいはつの げんばで じどうかが ばくはつてきに ふきゅうした いちねんだった。しゅどうで ふぁいるを あっぷろーどしてた つい このあいだの ひびが たいこの むかしに かんじる。
+
+**Web Development with Node & Express: Leveraging the JavaScript Stack**
+
+Ethan Brown
+
+> While XML is not particularly complicated, Douglas Crockford saw that there was room for something more light weight, and JavaScript object notation (JSON) was born.
+
+くろこうてんし（*Melanocorypha yeltoniensis*） と はじろこうてんし（*Melanocorypha leucoptera*）が ひょうしの どうぶつ。ことしの おらいりーの ぎじゅつしょの なかで いちばん すき。ひょうしに まけず ないようも しゅっしょくの でき。
+
+**Building Web Apps with Ember.js: Write Ambitious JavaScript**
+
+Jesse Cravens(@jessecravens) と Thomas Q Brady
+
+> Where Ember and SproutCore differ most is that SproutCore also included a library of prebuilt UI widgets, as many SDKs do.
+
+やまね（*Muscardinus avellanarius*）が ひょうしの どうぶつ。frogの えんじにあが かきあげた あんびしゃすな ぎじゅつしょ。Emberで ほんものの あぷりけーしょんを つくることを とおして じっせんてきな ちしきを まなぶ。
+
+**Seven Web Frameworks in Seven Weeks: Adventures in Better Web Apps**
+
+Jack Moffitt と Frederic Daoud
+
+**Seven Concurrency Models in Seven Weeks: When Threads Unravel**
+
+Paul Butcher
+
+**Seven More Languages in Seven Weeks: Languages That Are Shaping the Future**
+
+Bruce Tate、Fred Daoud、Jack Moffitt と Ian Dees
+
+Bruce A. Tateが きかくする 7つの せかい しりーず。あめりか こくないだけで なく せかいじゅうの ぷろぐらまーに あいされてる。
+
+**Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun**
+
+Dave Thomas
+
+つみどく。
+
+**STUFF GOES BAD: ERLANG IN ANGER**
+
+Fred Hebert
+
+ぜんちょ “すごい Erlang ゆかいに まなぼう！”の ほしゅう。きまえよく むりょうで こうかいされてる。
+
+**JavaScript & JQuery: interactive front-end web development**
+
+Jon Duckett
+
+> みやすい、わかりやすい、つかいやすい！
+
+JavaScriptにおける はくすいしゃ にゅー えくすぷれす ぽるとがるご。ぷろぐらみんぐ げんご さんこうしょの はくび。しまいしょの “HTML & CSS: design and build websites”も けっさく。Jon Duckettの まえに Jon Duckett なく、Jon Duckettの あとに Jon Duckett なし。
+
+**THINKING FUNCTIONALLY with HASKELL**
+
+Richard Bird
+
+> HUGS (The Haskell Users Gofer System) was an Earlier alternative to GHCi, and used in the second edition of the book on which the current one is based, but is no longer maintained.
+
+つらい。
+
+**Inside Coda**
+
+Panic, Inc.
+
+もっとも にんきがある うえぶさいと かいはつ あぷりけーしょんの ひとつ こーだの ちゅーとりある。きまえよく むりょうで こうかいされてる。
+
+**THE YEAR WITHOUT PANTS: WordPress.com and the Future of Work**
+
+Scott Berkun
+
+> It didn't matter if you were pantless in your living room or bathing in the sun, swinging in a hammock with a martini in your hand. What mattered was your output.
+
+すたーとあっぷて ゆうしゅうな ぷろぐらまーを ひきいれることが できるかで できないかで せいひが けっする。その ひとつの かいが りもーとわーく。
+
+**やるお わ むさしくにの しょうごうぞくに うまれたようです**
+
+駝鳥 ◆vPNvvOlGws
+
+> もともと おしじょう しゅうへん わ いちめんの ぬまちで あった。なりた いちぞく わ そのぬまを、あるいわ うめたて、あるいわ べつの ぬまと ほりで つなぎ、しぜんの ぬまと じんこうの すいろで かこんだ、こうだいな すいじょうの ようさいに つくりあげたので ある。
+
+れきしけい やるお すれ。せんごく じだいの ぶしょう なりた うじながが やるお。おとうとの やすちかが やらないお。とよとみ ひでよしの おだわら せいばつで れきし きょうかしょと くろす。AA やるお ぶんこで EPUB ふぁいるが むりょうで こうかいされてる。
